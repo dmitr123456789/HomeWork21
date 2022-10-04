@@ -5,10 +5,7 @@ public class H1 {
         String number;
         number = JOptionPane.showInputDialog("Введите трехзначное число:");
         int a = Integer.parseInt(number);
-        int resulte = a / 100;
+        int resulte = (a / 100)*100;
         System.out.println(resulte);
-
-        double resulte1 = (double) a / 100;
-        System.out.println(Math.ceil(resulte1));
     }
 }
